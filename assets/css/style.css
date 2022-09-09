@@ -179,3 +179,23 @@ h3{
     font-family: 'Quicksand';
     font-weight: bold;
 }
+
+.progress-bar{
+    background-color: var(--color3);
+}
+
+@media (max-width: 993px){
+    #barrita{
+        display: none;
+    }
+
+    .redes img{
+        width: 30px;
+    }
+}
+
+@media (min-width: 994px){
+    .dropdown{
+        display: none;
+    }
+}
