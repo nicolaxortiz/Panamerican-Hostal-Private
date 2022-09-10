@@ -21,12 +21,13 @@
 .barra .menu{
     width: 70px;
     float: right;
-    margin-right: 5px;
+    
 }
 
 .barra .user{
     width: 60px;
     float: right;
+    margin-right: 5px;
 }
 
 .barra .user-desk{
