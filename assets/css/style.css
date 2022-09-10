@@ -21,7 +21,18 @@
 .barra .menu{
     width: 70px;
     float: right;
-    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.barra .user{
+    width: 60px;
+    float: right;
+}
+
+.barra .user-desk{
+    width: 60px;
+    float: right;
+    margin-right: 25px;
 }
 
 h2{
@@ -184,6 +195,22 @@ h3{
     background-color: var(--color3);
 }
 
+.login{
+    width: 350px;
+    background-color: var(--color5);
+    padding: 10px 7px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.invisible{
+    display: none;
+}
+
 @media (max-width: 993px){
     #barrita{
         display: none;
@@ -192,10 +219,18 @@ h3{
     .redes img{
         width: 30px;
     }
+
+    .user-desk{
+        display: none;
+    }
 }
 
 @media (min-width: 994px){
     .dropdown{
+        display: none;
+    }
+
+    .user{
         display: none;
     }
 }
